@@ -1,0 +1,275 @@
+<MainLayout>:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 10
+
+    ScrollView:
+        do_scroll_x: False
+        do_scroll_y: True
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint_y: None
+            height: self.minimum_height
+            spacing: 20
+
+            # Linke Spalte: Übungen und Inputs
+            BoxLayout:
+                orientation: 'vertical'
+                size_hint_x: 0.5
+                spacing: 10
+                size_hint_y: None
+                height: self.minimum_height
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Bankdrücken"
+                        font_size: 24
+                    TextInput:
+                        id: bank_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Schulterdrücken"
+                        font_size: 24
+                    TextInput:
+                        id: shoulder_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Incline Brust"
+                        font_size: 24
+                    TextInput:
+                        id: incline_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Seitheben"
+                        font_size: 24
+                    TextInput:
+                        id: side_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Klimmzüge"
+                        font_size: 24
+                    TextInput:
+                        id: klimm_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Muscle Ups"
+                        font_size: 24
+                    TextInput:
+                        id: muscle_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Breites Rudern"
+                        font_size: 24
+                    TextInput:
+                        id: rudern_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Überzüge"
+                        font_size: 24
+                    TextInput:
+                        id: ueberzuege_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Reverse Flies"
+                        font_size: 24
+                    TextInput:
+                        id: revflies_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Bizeps Kurzhantel"
+                        font_size: 24
+                    TextInput:
+                        id: bizeps_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Trizepsdrücken"
+                        font_size: 24
+                    TextInput:
+                        id: trizeps_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Hammercurls"
+                        font_size: 24
+                    TextInput:
+                        id: hammer_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Trizeps überkopf"
+                        font_size: 24
+                    TextInput:
+                        id: trizepsueber_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Beinpresse"
+                        font_size: 24
+                    TextInput:
+                        id: beinpresse_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Beinbeuger"
+                        font_size: 24
+                    TextInput:
+                        id: beinbeuger_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Beinstrecker"
+                        font_size: 24
+                    TextInput:
+                        id: beinstrecker_input
+                        hint_text: "kg"
+                        multiline: False
+
+                BoxLayout:
+                    orientation: 'horizontal'
+                    size_hint_y: None
+                    height: 40
+                    spacing: 10
+                    Label:
+                        text: "Waden"
+                        font_size: 24
+                    TextInput:
+                        id: waden_input
+                        hint_text: "kg"
+                        multiline: False
+
+            # Rechte Spalte: Aktuelle Werte
+            BoxLayout:
+                orientation: 'vertical'
+                size_hint_x: 0.5
+                spacing: 10
+                size_hint_y: None
+                height: self.minimum_height
+
+                Label:
+                    text: "Aktuelle Werte"
+                    font_size: 18
+                    size_hint_y: None
+                    height: 40
+
+                Label:
+                    id: output_label
+                    text: "Hier erscheinen deine gespeicherten Werte"
+                    font_size: 16
+                    text_size: self.width, None
+                    valign: 'top'
+                    size_hint_y: None
+                    height: self.texture_size[1]
+
+    Button:
+        text: "Speichern"
+        font_size: 18
+        size_hint: None, None
+        size: 120, 50
+        pos_hint: {"center_x": 0.5}
+        on_release: root.save_values()
+
